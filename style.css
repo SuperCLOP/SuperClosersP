@@ -204,3 +204,25 @@ details p{
         padding:20px;
     }
 }
+.character-header{
+    margin-bottom:24px;
+    padding-bottom:18px;
+    border-bottom:1px solid #30363d;
+}
+
+.character-header h2{
+    margin-bottom:10px;
+}
+
+.character-header p{
+    color:#8b949e;
+    line-height:1.8;
+}
+
+.combo-gif{
+    max-width:100%;
+    margin-top:12px;
+    border-radius:10px;
+    border:1px solid #30363d;
+    background:#21262d;
+}
