@@ -210,6 +210,12 @@ details p{
     border-bottom:1px solid #30363d;
 }
 
+..character-header{
+    margin-bottom:24px;
+    padding-bottom:18px;
+    border-bottom:1px solid #30363d;
+}
+
 .character-header h2{
     margin-bottom:10px;
 }
