@@ -245,10 +245,6 @@ details p{
 
 @media(max-width:800px){
 
-.portrait{
-    width:220px;
-}
-
     .topbar{
         flex-direction:row;
         justify-content:flex-start;
