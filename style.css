@@ -232,3 +232,73 @@ details p{
     border:1px solid #30363d;
     background:#21262d;
 }
+.menu-btn{
+    display:none;
+    background:none;
+    border:1px solid #30363d;
+    color:#e6edf3;
+    font-size:22px;
+    padding:6px 10px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+@media(max-width:800px){
+
+    .topbar{
+        flex-direction:row;
+        justify-content:flex-start;
+        gap:14px;
+    }
+
+    .menu-btn{
+        display:block;
+    }
+
+    .layout{
+        display:block;
+    }
+
+    .sidebar{
+        position:fixed;
+        top:64px;
+        left:-280px;
+        width:260px;
+        height:calc(100vh - 64px);
+        background:#0d1117;
+        border-right:1px solid #30363d;
+        z-index:99;
+        transition:0.3s;
+        overflow-y:auto;
+    }
+
+    .sidebar.open{
+        left:0;
+    }
+
+    .content{
+        max-width:720px;
+        margin:0 auto;
+        padding:20px;
+    }
+
+    .hero,
+    .character-page{
+        width:100%;
+    }
+
+    .skill-box{
+        flex-direction:column;
+    }
+
+    .skill-box img{
+        width:72px;
+        height:72px;
+    }
+
+    video,
+    .combo-gif{
+        width:100%;
+        height:auto;
+    }
+}

@@ -10,6 +10,7 @@
 <body>
 
 <header class="topbar">
+   <button class="menu-btn" onclick="toggleMenu()">☰</button>
     <div class="logo">超級封批Super ClosersP</div>
 
     <nav>
@@ -73,6 +74,11 @@
             <h1>封批派對</h1>
             <p>沒有什麼 跟你說一下這角要幹嘛而已</p>
         </section>
+<script>
+function toggleMenu(){
+    document.querySelector(".sidebar").classList.toggle("open");
+}
+</script>
 
 
 </body>
