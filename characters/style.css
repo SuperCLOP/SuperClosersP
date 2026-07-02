@@ -245,6 +245,10 @@ details p{
 
 @media(max-width:800px){
 
+.portrait{
+    width:220px;
+}
+
     .topbar{
         flex-direction:row;
         justify-content:flex-start;
@@ -301,15 +305,4 @@ details p{
         width:100%;
         height:auto;
     }
-}
-img{
-    max-width:100%;
-    height:auto;
-}
-.portrait{
-    width:350px;
-    max-width:100%;
-    height:auto;
-    display:block;
-    margin:20px auto;
 }
