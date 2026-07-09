@@ -342,3 +342,47 @@ img, video{
     }
 
 }
+.skill-tab{
+    display:flex;
+    gap:16px;
+    margin:20px 0 25px;
+}
+
+.tab-btn{
+
+    padding:12px 28px;
+
+    background:#161b22;
+
+    border:1px solid #30363d;
+
+    border-radius:8px;
+
+    color:#8b949e;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.2s;
+}
+
+.tab-btn:hover{
+
+    color:#ffffff;
+
+    background:#21262d;
+
+}
+
+.tab-btn.active{
+
+    color:#ffffff;
+
+    border-color:#58a6ff;
+
+    background:#1f2937;
+
+}

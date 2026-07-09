@@ -1,3 +1,4 @@
+console.log("script.js 已載入");
 let characters = [];
 
 fetch("data/characters.json")
@@ -71,3 +72,31 @@ function goBack(){
     document.getElementById("page").style.display = "none";
     document.getElementById("home").style.display = "grid";
 }
+function showSkill(event, type){
+
+    document.getElementById("active").style.display = "none";
+    document.getElementById("passive").style.display = "none";
+
+    document.getElementById(type).style.display = "block";
+
+    document.querySelectorAll(".tab-btn").forEach(btn=>{
+        btn.classList.remove("active");
+    });
+
+    event.currentTarget.classList.add("active");
+}
+<script>
+function showSkill(event,type){
+
+    document.getElementById("active").style.display="none";
+    document.getElementById("passive").style.display="none";
+
+    document.getElementById(type).style.display="block";
+
+    document.querySelectorAll(".tab-btn").forEach(btn=>{
+        btn.classList.remove("active");
+    });
+
+    event.currentTarget.classList.add("active");
+}
+</script>
